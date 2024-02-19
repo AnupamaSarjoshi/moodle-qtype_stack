@@ -7,6 +7,8 @@ past development history is documented on [Development history](Development_hist
 
 This version will require moodle 4.0+, and will no longer support Moodle 3.x (which ended its general support on 14 November 2022, and security support ended on 11 December 2023.)
 
+1. Alter list of acceptible expressions.  Unicode super/subscripts now are invalid.  Use 150_replace filter in students' input.
+
 TODO:
 
 1. Change 'core/event' to 'core_filters/events' in input.js and stackjsvle.js.
